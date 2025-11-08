@@ -5,221 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Theap-Ka</title>
     
-    <!-- Open Graph Meta Tags for Link Preview -->
+    <!-- === កែសម្រួលត្រង់នេះ === -->
     <meta property="og:title" content="សិរីមង្គលអាពាហ៍ពិពាហ៍ - លោក សុខ សប្បាយ និងលោកស្រី">
     <meta property="og:description" content="សូមគោរពអញ្ជើញមកកាន់ពិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ">
-    <meta property="og:image" content="https://yourwebsite.com/1.frame name.png"> <!-- ជំនួស URL ពិត -->
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="ពិធីអាពាហ៍ពិពាហ៍">
+    <meta property="og:image" content="/1.frame name.png">
     
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="សិរីមង្គលអាពាហ៍ពិពាហ៍ - លោក សុខ សប្បាយ និងលោកស្រី">
     <meta name="twitter:description" content="សូមគោរពអញ្ជើញមកកាន់ពិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ">
-    <meta name="twitter:image" content="https://yourwebsite.com/1.frame name.png"> <!-- ជំនួស URL ពិត -->
+    <meta name="twitter:image" content="/1.frame name.png">
+    <!-- === បញ្ចប់ការកែសម្រួល === -->
  
     <link rel="stylesheet" href="/style.css">
-    
-    <style>
-        /* Link Preview Styles */
-        .link-preview-container {
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 15px;
-            text-align: center;
-        }
-        
-        .link-preview {
-            border: 2px solid #d4af37;
-            border-radius: 15px;
-            overflow: hidden;
-            background: linear-gradient(135deg, #fff9e6 0%, #fff0cc 100%);
-            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
-            transition: transform 0.3s ease;
-            margin: 20px 0;
-        }
-        
-        .link-preview:hover {
-            transform: translateY(-5px);
-        }
-        
-        .preview-header {
-            background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        
-        .preview-title {
-            font-size: 1.4rem;
-            margin: 0;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-        }
-        
-        .preview-subtitle {
-            font-size: 1rem;
-            margin: 5px 0 0 0;
-            opacity: 0.9;
-        }
-        
-        .preview-content {
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        
-        .preview-image-container {
-            width: 120px;
-            height: 120px;
-            border-radius: 10px;
-            border: 3px solid #d4af37;
-            overflow: hidden;
-            background: #f8f8f8;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .preview-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        .preview-text {
-            flex: 1;
-            text-align: left;
-        }
-        
-        .preview-couple {
-            font-size: 1.2rem;
-            color: #8b6914;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-        
-        .preview-invitation {
-            color: #666;
-            font-size: 0.95rem;
-            line-height: 1.4;
-        }
-        
-        .preview-footer {
-            background: #f8f8f8;
-            padding: 12px;
-            border-top: 1px solid #e0e0e0;
-            font-size: 0.9rem;
-            color: #888;
-        }
-        
-        /* Image Upload/Change Section */
-        .image-control {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 15px 0;
-            border: 2px dashed #d4af37;
-        }
-        
-        .image-control h4 {
-            color: #8b6914;
-            margin-bottom: 10px;
-        }
-        
-        .image-url-input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            font-size: 0.9rem;
-        }
-        
-        .update-button {
-            background: #d4af37;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        
-        .update-button:hover {
-            background: #b8941f;
-        }
-        
-        @media (max-width: 768px) {
-            .link-preview-container {
-                margin: 15px 10px;
-            }
-            
-            .preview-content {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .preview-text {
-                text-align: center;
-            }
-            
-            .preview-image-container {
-                width: 100px;
-                height: 100px;
-            }
-        }
-    </style>
 </head>
+<body>
+    <!-- ខាងក្រោមនេះជាកន្លែងបង្ហាញ Link Preview -->
+    
+    <div class="link-preview-container">
+        <div class="link-preview">
+            <div class="preview-header">
+                <!-- === កែសម្រួលត្រង់នេះ === -->
+                <h3 class="preview-title">សិរីមង្គលអាពាហ៍ពិពាហ៍</h3>
+                <p class="preview-subtitle">សូមគោរពអញ្ជើញ</p>
+            </div>
+            <div class="preview-content">
+                <div class="preview-image-container">
+                    <!-- === កែសម្រួលត្រង់នេះ === -->
+                    <img class="preview-image" src="/1.frame name.png" alt="Wedding Frame">
+                </div>
+                <div class="preview-text">
+                    <!-- === កែសម្រួលត្រង់នេះ === -->
+                    <div class="preview-couple">លោក សុខ សប្បាយ និងលោកស្រី</div>
+                    <p class="preview-invitation">សូមគោរពអញ្ជើញមកកាន់ពិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ</p>
+                </div>
+            </div>
+        </div>
+    </div>
 <body>
    <!-- background 1-->
 </body>
 <body class="background-2">
     
 </body>
-<body>
-     <img class="logo-1" src="/2.logo chim panha (Gold).png" alt="logo">
-    <h1 class="text-1">សិរីមង្គលអាពាហ៍ពិពាហ៍</h1>
-    <h2 class="text-2">សូមគោរពអញ្ជើញ</h2>
-    
-    <!-- Link Preview for Social Media Sharing -->
-    <div class="link-preview-container">
-        <!-- Image Control Section -->
-        <div class="image-control">
-            <h4>ប្តូររូបភាព Link Preview:</h4>
-            <input type="text" 
-                   class="image-url-input" 
-                   id="imageUrlInput"
-                   placeholder="បញ្ចូល URL រូបភាពថ្មី (ឧ. https://example.com/image.jpg)"
-                   value="/1.frame name.png">
-            <button class="update-button" onclick="updatePreviewImage()">អាប់ដេតរូបភាព</button>
-        </div>
-        
-        <div class="link-preview" id="weddingPreview">
-            <div class="preview-header">
-                <h3 class="preview-title">សិរីមង្គលអាពាហ៍ពិពាហ៍</h3>
-                <p class="preview-subtitle">សូមគោរពអញ្ជើញ</p>
-            </div>
-            <div class="preview-content">
-                <div class="preview-image-container">
-                    <img class="preview-image" 
-                         id="previewImage" 
-                         src="/1.frame name.png" 
-                         alt="Wedding Frame"
-                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiBmaWxsPSIjZjhmOGY4Ii8+Cjx0ZXh0IHg9IjYwIiB5PSI2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjOTk5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iMC4zNWVtIj7smKgg7LmY7J6FPC90ZXh0Pgo8L3N2Zz4K'">
-                </div>
-                <div class="preview-text">
-                    <div class="preview-couple">លោក សុខ សប្បាយ និងលោកស្រី</div>
-                    <p class="preview-invitation">សូមគោរពអញ្ជើញមកកាន់ពិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ</p>
-                </div>
-            </div>
-            <div class="preview-footer">
-                សូមចុចលើតំណភ្ជាប់ដើម្បីមើលព័ត៌មានលម្អិត
-            </div>
-        </div>
-    </div>
+
 
     <body>
     <img class="B1" src="/Butterfly-Flying-Sticker---Butterfly-Flying-Beautiful---Discover-&-Share-GIFs.gif" alt="B1">
